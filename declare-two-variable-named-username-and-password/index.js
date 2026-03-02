@@ -1,17 +1,17 @@
 const adminUsername = "Nitro";
 const adminPassword = "12345";
 
-const inputUsername = prompt("Enter your username:");
-const inputPassword = prompt("Enter your password:");
+const inputUser = prompt("Enter your username:");
+const inputPass = prompt("Enter your password:");
 
-if (inputUser === username && inputPass === password) {
+if (inputUser === adminUsername && inputPass === adminPassword) {
     alert("Congratulations! You are Logged In");
 } else {
-    if (inputUser !== username && inputPass !== password) {
+    if (inputUser !== adminUsername && inputPass !== adminPassword) {
         alert("Error: Both username and password are incorrect.");
-    } else if (inputUser !== username) {
+    } else if (inputUser !== adminUsername) {
         alert("Error: Incorrect username.");
-    } else if (inputPass !== password) {
+    } else if (inputPass !== adminPassword) {
         alert("Error: Incorrect password.");
     }
 }
