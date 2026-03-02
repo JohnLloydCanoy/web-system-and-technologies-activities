@@ -5,7 +5,7 @@ const inputUsername = prompt("Enter your username:");
 const inputPassword = prompt("Enter your password:");
 
 if (inputUsername === adminUsername && inputPassword === adminPassword) {
-  alert("Login successful!");
+    alert("Login successful!");
 } else {
-  alert("Invalid username or password. Login failed.");
+    alert("Invalid username or password. Login failed.");
 }
