@@ -1,2 +1,2 @@
-const username = "Nitro";
-const password = "12345";
+const adminUsername = "Nitro";
+const adminPassword = "12345";
